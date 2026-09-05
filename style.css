@@ -5,6 +5,11 @@
     --light: #ffebb8;
     --shadow: rgba(59, 29, 45, 0.8)
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Texturina";
     margin: 0;
@@ -99,6 +104,8 @@ h2.poster-title{
     margin-top: 2%;
     background-color: var(--light);
     filter: drop-shadow(1px 20px 8px var(--shadow));
+    background-image: url("assets/textures/paper1.jpg"), url("assets/textures/paper2.jpg");
+    background-blend-mode: overlay;
 }
 
 .poster-photo{
