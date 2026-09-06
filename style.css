@@ -141,3 +141,10 @@ h2.poster-title{
     margin-left: 1.5%;
 }
 
+
+.about{
+    background-image: url("assets/textures/paper2.jpg"), url("assets/textures/paper1.jpg");
+    background-color: var(--light);
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
