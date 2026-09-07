@@ -98,6 +98,8 @@ nav {
 
 
 
+
+
 .poster{
     display: flex;
     flex-direction: column;
@@ -290,6 +292,45 @@ footer{
     }
     h2.poster-title{
         font-size: 5vw;
+    }
+    .burgertoggle {
+        display: block;
+
+        font-size: 30px;
+    }
+    .navlink {
+        display: none;
+
+        flex-direction: column;
+
+        gap: 1rem;
+
+        background-color: var(--light);
+        background-image: url("assets/textures/paper1.jpg"), url("assets/textures/paper2.jpg");
+        background-size: cover;
+        background-blend-mode: overlay;
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        padding: 1.25rem;
+    }
+
+    .navlink.active {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        margin-top: -1px;
+
+        width: stretch;
+
     }
 }
 
