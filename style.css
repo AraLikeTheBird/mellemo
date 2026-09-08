@@ -120,13 +120,22 @@ h2.poster-title{
     filter: drop-shadow(1px 20px 8px var(--shadow));
     background-image: url("assets/textures/paper1.jpg"), url("assets/textures/paper2.jpg");
     background-blend-mode: overlay;
+    width: 50%;
 }
 .poster-photo{
     padding:9%;
     padding-bottom: 1%;
+    display: inline-block;
+    vertical-align: top;
 }
 .poster-photo img{
     width: 100%;
+    display: block;
+}
+.slider {
+    white-space: nowrap;
+    overflow-x: hidden;
+
 }
 .poster-text{
     margin-left: 9%;
@@ -147,6 +156,7 @@ h2.poster-title{
 .card.right{
     margin-left: 1.5%;
 }
+
 
 
 .about{
