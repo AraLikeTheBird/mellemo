@@ -345,3 +345,70 @@ footer{
 }
 
 
+.slider {
+    position: relative;
+}
+
+.poster-photo {
+    display: none;
+}
+
+.poster-photo.active {
+    display: block;
+}
+
+.poster-photo img {
+    width: 100%;
+    display: block;
+}
+
+
+/* Arrows */
+
+.carousel-prev,
+.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    cursor: pointer;
+    border: none;
+    background: none;
+
+    font-size: 30px;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+
+/* Dots */
+
+.carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+
+    margin: 0 4px;
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #bbb;
+    cursor: pointer;
+}
+
+.carousel-dot.active {
+    background: #555;
+}
+

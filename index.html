@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="script" href="jscode.js">
 </head>
-<body>
+<body onload="createCarousel('.slider');">
  <nav id="home">
 
      <a href="#home"><img class="navlogo" src="assets/logos/text--main-logo-no-outline-vector.svg"></a>
@@ -33,17 +33,26 @@
         <h2 class="poster-title"> OUR POSTERS </h2>
         <div class="display">
             <div class="card left">
-
-                <div class="poster-photo">
-                    <img src="assets/placeholder/placeholder.png" alt="poster1">
+                <div class="slider">
+                    <div class="poster-photo">
+                        <img src="assets/placeholder/placeholder.png" alt="poster1">
+                    </div>
+                    <div class="poster-photo">
+                        <img src="assets/placeholder/placeholder-wide.png" alt="poster1">
+                    </div>
                 </div>
                 <div class="poster-text">
                     <p>text text text</p>
                 </div>
             </div>
             <div class="card right">
-                <div class="poster-photo">
-                    <img src="assets/placeholder/placeholder.png" alt="poster1">
+                <div class="slider">
+                    <div class="poster-photo">
+                        <img src="assets/placeholder/placeholder.png" alt="poster1">
+                    </div>
+                    <div class="poster-photo">
+                        <img src="assets/placeholder/placeholder.png" alt="poster1">
+                    </div>
                 </div>
                 <div class="poster-text">
                     <p>text text text</p>
